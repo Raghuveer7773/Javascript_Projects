@@ -12,7 +12,7 @@ body{
     justify-content: center;
     align-items: center;
     background: linear-gradient(to right bottom, #ffa585, #45c5d8);
-    color: #ffffff;
+    color: #fff;
     font-weight: 600;
 }
 
@@ -30,7 +30,19 @@ body{
     font-size: 1.4rem;
     margin-block: 8px;
 }
+.inputBox{
+    position: relative;
+}
 
+.inputBox span{
+    position: absolute;
+    top: 16px;
+    right: 6px;
+    color: #000;
+    font-size: 28px;
+    cursor: pointer;
+    z-index: 2;
+}
 .passBox{
     background-color: #fff;
     border: none;
@@ -40,6 +52,7 @@ body{
     border-radius: 4px;
     font-size: 20px;
     margin-block: 8px;
+    text-overflow: ellipsis;
 }
 
 .row{
@@ -60,7 +73,7 @@ body{
 .genBtn{
     border: none;
     outline: none;
-    background: #2c619e;
+    background-color: #2c619e;
     padding: 12px 24px;
     color: #fff;
     font-size: 18px;
